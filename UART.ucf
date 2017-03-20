@@ -1,0 +1,84 @@
+#########LED Pin define#####################
+#Net clk LOC = V10 | TNM_NET = sys_clk_pin;
+#TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 50000 kHz;
+#
+##########LED Pin define#####################
+##//NET rst_n                                LOC = C18 | IOSTANDARD = "LVCMOS33"; ## KEY1 pushbutton
+##//ADC PIN
+#NET rs232_tx             LOC = D17 | IOSTANDARD = "LVCMOS33";  ##  GPIO A2
+#NET rs232_rx             LOC = E18 | IOSTANDARD = "LVCMOS33";  ##  GPIO A4
+###NET PCB_GND2         	 LOC = D17 | IOSTANDARD = "LVCMOS33";  ##  GPIO A2_PIN 3
+#NET PCB_GND2         	 LOC = C17 | IOSTANDARD = "LVCMOS33";  ##  GPIO A0 for rs232
+##NET PCB_GND         	    LOC = H12 | IOSTANDARD = "LVCMOS33";  ##  GPIO A21
+##//NET PCB_3V3         		 LOC = F18 | IOSTANDARD = "LVCMOS33";  ##  GPIO A6_PIN 7
+##
+#//***********************
+#NET clk_lfl1402          LOC = F15 | IOSTANDARD = "LVCMOS33";  ##  GPIO A9
+#NET clk_st_lfl1402       LOC = F17 | IOSTANDARD = "LVCMOS33";  ##  GPIO A7
+#NET DIS_lfl1402          LOC = E16 | IOSTANDARD = "LVCMOS33";  ##  GPIO A5
+#NET clk_lfl1402          LOC = D18 | IOSTANDARD = "LVCMOS33";  ##  GPIO A3
+#NET PCB_GND3         	    LOC = C18 | IOSTANDARD = "LVCMOS33";  ##  GPIO A1
+#NET PCB_GND4         	    LOC = G18 | IOSTANDARD = "LVCMOS33";  ##  GPIO A11_PIN14
+#NET PCB_GND5         	    LOC = G14 | IOSTANDARD = "LVCMOS33";  ##  GPIO A13_PIN16
+#
+#NET OTR_PIN          LOC = T14 | IOSTANDARD = "LVCMOS33";  ##  GPIO B19
+#NET OE_PIN          LOC = V14 | IOSTANDARD = "LVCMOS33";  ##  GPIO B20
+#NET PCB_GND         	    LOC = U13 | IOSTANDARD = "LVCMOS33";  ##  GPIO B21
+#NET CLK_ADC         		  LOC = V13 | IOSTANDARD = "LVCMOS33";  ##  GPIO B22
+##NET PCB_GND         		  LOC = V13 | IOSTANDARD = "LVCMOS33";  ##  GPIO B22
+#NET ADC_DATA<11>          LOC = U16 | IOSTANDARD = "LVCMOS33";  ##  GPIO B24
+#NET ADC_DATA<10>          LOC = V16 | IOSTANDARD = "LVCMOS33";  ##  GPIO B25
+#NET ADC_DATA<9>           LOC = U15 | IOSTANDARD = "LVCMOS33";  ##  GPIO B26
+#NET ADC_DATA<8>           LOC = V15 | IOSTANDARD = "LVCMOS33";  ##  GPIO B27
+#NET ADC_DATA<7>           LOC = V12 | IOSTANDARD = "LVCMOS33";  ##  GPIO B28
+#NET ADC_DATA<6>           LOC = U11 | IOSTANDARD = "LVCMOS33";  ##  GPIO B29
+#NET ADC_DATA<5>           LOC = V11 | IOSTANDARD = "LVCMOS33";  ##  GPIO B30 
+#NET ADC_DATA<4>           LOC = U10 | IOSTANDARD = "LVCMOS33";  ##  GPIO B31
+#NET ADC_DATA<3>           LOC = P12 | IOSTANDARD = "LVCMOS33";  ##  GPIO B32
+#NET ADC_DATA<2>           LOC = P11 | IOSTANDARD = "LVCMOS33";  ##  GPIO B33
+#NET ADC_DATA<1>           LOC = R11 | IOSTANDARD = "LVCMOS33";  ##  GPIO B34
+#NET ADC_DATA<0>           LOC = N11 | IOSTANDARD = "LVCMOS33";  ##  GPIO B35
+##NET ADC_DATA<11>          PULLUP;  ##  GPIO B24
+##NET ADC_DATA<10>          PULLUP;  ##  GPIO B25
+##NET ADC_DATA<9>           PULLUP;  ##  GPIO B26
+##NET ADC_DATA<8>           PULLUP;  ##  GPIO B27
+##NET ADC_DATA<7>           PULLUP;  ##  GPIO B28
+##NET ADC_DATA<6>           PULLUP;  ##  GPIO B29
+##NET ADC_DATA<5>           PULLUP;  ##  GPIO B30 
+##NET ADC_DATA<4>           PULLUP;  ##  GPIO B31
+##NET ADC_DATA<3>           PULLUP;  ##  GPIO B32
+##NET ADC_DATA<2>           PULLUP;  ##  GPIO B33
+##NET ADC_DATA<1>           PULLUP;  ##  GPIO B34
+##NET ADC_DATA<0>           PULLUP;  ##  GPIO B35
+#//***********************
+#//SPI PIN
+#NET SDI        			 LOC = T18 | IOSTANDARD = "LVCMOS33";  ##  GPIO B15  B15
+#NET SCLK         			 LOC = P16 | IOSTANDARD = "LVCMOS33";  ##  GPIO B14  B14
+#NET SDO         			 LOC = P17 | IOSTANDARD = "LVCMOS33";  ##  GPIO B13  B13
+#NET CSB         			 LOC = T17 | IOSTANDARD = "LVCMOS33";  ##  GPIO B16  B16
+#NET CLRB        			 LOC = U17 | IOSTANDARD = "LVCMOS33";  ##  GPIO B18  B18
+#NET LDACB         		 LOC = U18 | IOSTANDARD = "LVCMOS33";  ##  GPIO B17  B17
+#//***********************
+#
+#
+#
+#
+##//****ºÚ½ðADÄ£¿é
+##NET ADC_DATA<11>          LOC = G16 | IOSTANDARD = "LVCMOS33";  ##  GPIO A12
+##NET CLK_ADC          LOC = G14 | IOSTANDARD = "LVCMOS33";  ##  GPIO A13
+##NET ADC_DATA<9>          LOC = G13 | IOSTANDARD = "LVCMOS33";  ##  GPIO A14
+##NET ADC_DATA<10>          LOC = H18 | IOSTANDARD = "LVCMOS33";  ##  GPIO A15
+##NET ADC_DATA<7>          LOC = H17 | IOSTANDARD = "LVCMOS33";  ##  GPIO A16
+##NET ADC_DATA<8>          LOC = H16 | IOSTANDARD = "LVCMOS33";  ##  GPIO A17
+##NET ADC_DATA<5>          LOC = H15 | IOSTANDARD = "LVCMOS33";  ##  GPIO A18
+##NET ADC_DATA<6>          LOC = H14 | IOSTANDARD = "LVCMOS33";  ##  GPIO A19
+##NET ADC_DATA<3>          LOC = H13 | IOSTANDARD = "LVCMOS33";  ##  GPIO A20
+##NET ADC_DATA<4>          LOC = H12 | IOSTANDARD = "LVCMOS33";  ##  GPIO A21
+##NET ADC_DATA<1>          LOC = J18 | IOSTANDARD = "LVCMOS33";  ##  GPIO A22
+##NET ADC_DATA<2>          LOC = J16 | IOSTANDARD = "LVCMOS33";  ##  GPIO A23
+##//NET FPGA_GPIO_A24          LOC = J13 | IOSTANDARD = "LVCMOS33";  ##  GPIO A24
+##NET ADC_DATA<0>          LOC = K16 | IOSTANDARD = "LVCMOS33";  ##  GPIO A25
+##NET PCB_GND          LOC = K13 | IOSTANDARD = "LVCMOS33";  ##  GPIO A30
+##NET PCB_GND          LOC = K12 | IOSTANDARD = "LVCMOS33";  ##  GPIO A31
+##NET PCB_3V3          LOC = L18 | IOSTANDARD = "LVCMOS33";  ##  GPIO A32
+##NET PCB_3V3          LOC = L17 | IOSTANDARD = "LVCMOS33";  ##  GPIO A33

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tuma/Desktop/Triangle_Electronics/FPGA/Xlinix_Demo/GIT_UPLOAD/Laser_Triangulation/CMOS_DRIVE_LFL1402.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tuma/Desktop/Triangle_Electronics/FPGA/Xlinix_Demo/GIT_UPLOAD/Laser_Triangulation/SPI_Master_User.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tuma/Desktop/Triangle_Electronics/FPGA/Xlinix_Demo/GIT_UPLOAD/Laser_Triangulation/SYS_RST.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tuma/Desktop/Triangle_Electronics/FPGA/Xlinix_Demo/GIT_UPLOAD/Laser_Triangulation/UART_APPLY.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tuma/Desktop/Triangle_Electronics/FPGA/Xlinix_Demo/GIT_UPLOAD/Laser_Triangulation/UART_CLOCK.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tuma/Desktop/Triangle_Electronics/FPGA/Xlinix_Demo/GIT_UPLOAD/Laser_Triangulation/UART_PC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tuma/Desktop/Triangle_Electronics/FPGA/Xlinix_Demo/GIT_UPLOAD/Laser_Triangulation/UART_TOP.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/tuma/Desktop/Triangle_Electronics/FPGA/Xlinix_Demo/GIT_UPLOAD/Laser_Triangulation/my_uart_rx.v&quot; into library work</arg>
+</msg>
+
+</messages>
+
